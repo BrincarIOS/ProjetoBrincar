@@ -8,9 +8,11 @@ Somos a Amarelinha, um site dedicado a atender o nosso futuro, as crianças. Faz
 Fomos criados em 2022, com objetivo de mostrar para as crianças, que o mundo lá fora é melhor
 que esse na telinha.<br>
 
-<img src="https://1.bp.blogspot.com/-EL7r0zmIgiY/Ucd8FeRPy8I/AAAAAAAAwzo/GyIUKNigQk0/s1600/tumblr_lkxwhgUPWz1qcjzcm.gif" width="300">
+
 
 </p>
+
+<img src="https://1.bp.blogspot.com/-EL7r0zmIgiY/Ucd8FeRPy8I/AAAAAAAAwzo/GyIUKNigQk0/s1600/tumblr_lkxwhgUPWz1qcjzcm.gif" width="300">
 <hr>
 <br>
 <h2>O que fazemos? 👩🏿‍👧🏾‍👦🏿👩🏽‍👦🏾</h2>
