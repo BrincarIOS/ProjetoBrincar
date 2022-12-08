@@ -1,0 +1,107 @@
+.carrosel-img {
+    height: 100%;
+}
+
+.carrosel-conteiner {
+    max-height: 95vh;
+    min-height: 300px;
+}
+
+.img-texto h1,
+h2 {
+    background-color: #000;
+    color: #ff5;
+    font-family: Permanent Marker;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50%;
+    padding: 5px;
+}
+
+h2 a{
+    text-decoration: none !important;
+    color: #ff5 !important;
+}
+
+@media only screen and (max-width: 1100px) {
+    .carrosel-conteiner {
+        max-height: 70vh;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .carrosel-conteiner {
+        max-height: 55vh;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .carrosel-conteiner {
+        max-height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .carrosel-conteiner {
+        max-height: 35vh;
+    }
+}
+
+.texto {
+    text-align: center;
+}
+
+.texto-secundario {
+    font-family: Permanent Marker;
+    font-size: larger;
+    color: #ff5;
+    background-color: #000;
+}
+
+.containerCard03 .container2 {
+    flex-direction: row !important;
+}
+
+.containerCard03 .container-img {
+    height: 100% !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .containerCard03 .container2 {
+        flex-direction: column !important;
+    }
+}
+
+.parceria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    margin: 10px;
+}
+
+.parceria img {
+    padding-left: 50px;
+    height: 150px;
+    width: 150px !important;
+}
+
+.botao {
+    color: #000;
+    font-weight: bold;
+    box-shadow: 0 0 5px black;
+    background-color: #ff5;
+}
+
+.botao:hover {
+    border: none;
+    color: #ff5 !important;
+    background-color: #000 !important;
+    box-shadow: 0 0 4px black;
+}
+
+.cardContainer{
+    line-height: normal !important;
+}

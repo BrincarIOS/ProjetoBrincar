@@ -1,0 +1,153 @@
+.containerFooter {
+   background-color: #ff5;
+   box-shadow: 0 0 10px black;
+   overflow: hidden;
+}
+
+@media only screen and (max-width: 1350px) {
+   .social {
+      flex-direction: column;
+   }
+}
+
+.footer2 {
+   background-color: #000;
+   overflow: hidden;
+   color: #ff5;
+   font-weight: bold;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.social {
+   text-align: center;
+   display: flex;
+}
+
+.logoFooter {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 80px;
+}
+
+.img-Logo {
+   max-width: 600px;
+   max-height: 500px;
+}
+
+.img-Logo img{
+   width: 100%;
+   height: 100%;
+}
+
+.frase {
+   display: flex;
+   justify-content: center;
+   align-self: center;
+}
+
+.frase h4 {
+   cursor: default;
+   background-color: #000;
+   border-radius: 5px;
+   color: #ff5;
+   font-family: Permanent Marker;
+   margin: 10px;
+   padding: 10px;
+}
+
+.rede {
+   display: flex;
+   justify-content: center;
+   padding: 5px;
+}
+
+.insta-top {
+   transition: all 0.3s linear;
+   background-color: #ff5;
+   padding: 5px;
+   margin: 5px;
+   position: relative;
+   left: 50px;
+   z-index: 1;
+}
+
+.insta-top:hover {
+   opacity: 0;
+}
+
+.insta {
+   background-color: #000;
+   border-radius: 5px;
+   padding: 5px;
+   overflow: hidden;
+   margin: 5px;
+}
+
+.face-top {
+   transition: all 0.3s linear;
+   background-color: #ff5;
+   padding: 5px;
+   margin: 5px;
+   z-index: 1;
+}
+
+.face-top:hover {
+   opacity: 0;
+}
+
+.face {
+   background-color: #000;
+   border-radius: 5px;
+   padding: 5px;
+   overflow: hidden;
+   margin: 5px;
+   position: relative;
+   right: 50px;
+}
+
+.socialLinks {
+   padding: 20px;
+   margin: 20px;
+   display: flex;
+   flex-direction: column;
+}
+
+.contatar {
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+   padding: 10px;
+   text-align: center;
+   color: black;
+}
+
+.contatar h5 {
+   font-family: Permanent Marker;
+   color: #000;
+   cursor: default;
+}
+
+.contatar input,
+.contatar textarea {
+   margin-bottom: 10px;
+   border: 0;
+   border-radius: 5px;
+   outline: none;
+   background-color: white;
+}
+
+.btn-contato {
+   background-color: #ff5;
+   color: #000;
+   font-weight: bold;
+   box-shadow: 0 0 5px black;
+}
+
+.btn-contato:hover {
+   border: none;
+   color: #ff5 !important;
+   background-color: #000 !important;
+   box-shadow: 0 0 1px black;
+}

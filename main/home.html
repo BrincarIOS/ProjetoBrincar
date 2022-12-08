@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Amarelinha</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo-nav.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/cardContainer1.css">
+    <link rel="stylesheet" href="css/cardContainer2.css">
+    <link rel="stylesheet" href="css/cardContainer3.css">
+    <link rel="stylesheet" href="css/containerEquipe.css">
+    <link rel="stylesheet" href="css/containerDesenho.css">
+
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="css/img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="css/img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="css/img/favicon_io/favicon-16x16.png">
+</head>
+
+<body>
+    <!-- Menu Fixo -->
+    <header id="header">
+        <div class="centro">
+            <a href="#">
+                <div class="home home-superior">
+                    <img src="css/img/HomeOFF.png" alt="Home">
+                </div>
+                <div class="home">
+                    <img src="css/img/HomeON.png" alt="Home">
+                </div>
+            </a>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand logoLinck" href="home.html">
+                    Amarelinha
+                </a>
+                <button id="botao-nav" class="navbar-toggler btn-menu" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span>
+                        <img src="css/img/MenuOFF.png" alt="Menu" class="menu menu-superior">
+                        <img src="css/img/MenuON.png" alt="Menu" class="menu">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle link" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Brinquedos
+                            </a>
+                            <ul class="dropdown-menu dropMenu">
+                                <li><a class="dropdown-item dropItem" href="brinquedos.html">Faça você mesmo!</a></li>
+                                <li>
+                                    <hr class="dropdown-divider dropItem">
+                                </li>
+                                <li><a class="dropdown-item dropItem" href="doacoes.html">Doação de
+                                        brinquedos/roupas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle link" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Brincadeiras
+                            </a>
+                            <ul class="dropdown-menu dropMenu">
+                                <li><a class="dropdown-item dropItem" href="brincadeiras.html">Brincadeiras</a></li>
+                                <li><a class="dropdown-item dropItem" href="desenhos.html">Desenhos para colorir</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider dropMenu">
+                                </li>
+                                <li><a class="dropdown-item dropItem" href="brincarFazBem.html">Importância do
+                                        brincar</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="eventos.html">Eventos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Corpo do Site -->
+    <article>
+
+        <!-- Carrosel -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-inner">
+                <div class="carousel-item active carrosel-conteiner">
+                    <img src="css/img/carrosel/Agosto-Dourado-Ruas-de-Brincar_fm_-99-1 - Editado.png"
+                        class="d-block w-100 carrosel-img" alt="Crianças">
+                    <div class="carousel-caption d-none d-md-block img-texto">
+                        <h1>Amarelinha</h1>
+                    </div>
+                </div>
+                <div class="carousel-item carrosel-conteiner">
+                    <img src="css/img/carrosel/crianças.jpg" class="d-block w-100 carrosel-img" alt="Crianças">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="eventos.html"><h2>Venha brincar com a gente!<br>Eventos</h2></a>
+                    </div>
+                </div>
+                <div class="carousel-item carrosel-conteiner">
+                    <img src="css/img/carrosel/ruas_de_brincar_jardim_fepasa-174 - Editado.png"
+                        class="d-block w-100 carrosel-img" alt="Crianças">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="brincadeiras.html"><h2>E essa você conhece?<br>Brincadeiras</h2></a>
+                    </div>
+                </div>
+                <div class="carousel-item carrosel-conteiner">
+                    <img src="css/img/carrosel/ruas_de_brincar_jardim_fepasa-87 - Editado.png"
+                        class="d-block w-100 carrosel-img" alt="Crianças">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="brinquedos.html"><h2>Vamos ser criativos<br>Brinquedos</h2></a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
+        </div>
+
+        <!-- Container de cards -->
+        <div class="cards">
+            <div class="texto">
+                <h1><span class="badge texto-secundario">Um pouco sobre nós</span></h1>
+                <br>
+                <br>
+            </div>
+            <div class="cardContainer">
+                <div class="containerCard03">
+                    <section class="container1">
+                        <div class="container2">
+                            <div class="container-img">
+                                <img src="css/img/home/WhatsApp Image 2022-12-06 at 21.30.24.jpeg" alt="Equipe">
+                            </div>
+                            <div class="container-texto">
+                                <h4>Quem somos?</h4>
+                                <p>Somos a Amarelinha, um site dedicado a atender o nosso futuro, as crianças. Fazemos
+                                    isso com eventos, trazendo brincadeiras e brinquedos que marcaram a infância de
+                                    muitos, para a nova geração.<br>
+                                    Fomos criados 2022, com objetivo de mostrar para as crianças, que o mundo lá fora é
+                                    melhor que esse na telinha.
+                                </p><br>
+                                <h4>O que fazemos?</h4>
+                                <p>Realizamos eventos e projetos para crianças em comunidades, mas sempre com a ajuda
+                                    dos pais, seja para doar, ou para brincar também.<br>
+                                    Todos os brinquedos que fazemos são recicláveis, ou recebidos de doações, sempre
+                                    resaltando a coletividade e a preservação do meio ambiente.<br>
+                                    Seja velho ou seja novo, queremos ver você brincar.
+                                </p>
+                                <div class="parceria">
+                                    <img src="css/img/logo/parceria.png" alt="Favela Livre">
+                                    <p>Educação infantojuvenil gratuita</p>
+                                    <a href="" class="btn btn-outline-warning botao">Ver</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="containerEquipe">
+                    <section class="container1">
+                        <div class="container2">
+                            <div class="container-img">
+                                <img src="css/img/Equipe/WhatsApp Image 2022-12-07 at 10.25.23.jpeg" alt="imagem">
+                            </div>
+                            <div class="container-texto">
+                                <div class="info">
+                                    Beatriz Egidio <br>
+                                    17 anos <br>
+                                </div>
+                                <div>
+                                    <a href="https://www.instagram.com/biaah_egidioo/" target="_blank"><img
+                                            src="css/img/instagramOFF.png" alt="Instagram"></a>
+                                    <a href="https://www.linkedin.com/in/beatriz-egidio-698877249" target="_blank"><img
+                                            src="css/img/linkedin.png" alt="Linkedin"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="containerEquipe">
+                    <section class="container1">
+                        <div class="container2">
+                            <div class="container-img">
+                                <img src="css/img/Equipe/WhatsApp Image 2022-12-07 at 09.13.15.jpeg" alt="imagem">
+                            </div>
+                            <div class="container-texto">
+                                <div class="info">
+                                    Isabelly Cristina <br>
+                                    16 anos <br>
+                                </div>
+                                <div>
+                                    <a href="https://www.instagram.com/isa_llima/" target="_blank"><img
+                                            src="css/img/instagramOFF.png" alt="Instagram"></a>
+                                    <a href="https://www.linkedin.com/in/isabelly-perfect-6730b825a/"
+                                        target="_blank"><img src="css/img/linkedin.png" alt="Linkedin"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="containerEquipe">
+                    <section class="container1">
+                        <div class="container2">
+                            <div class="container-img">
+                                <img src="css/img/Equipe/WhatsApp Image 2022-12-07 at 11.10.55.jpeg" alt="imagem">
+                            </div>
+                            <div class="container-texto">
+                                <div class="info">
+                                    Mayara Santos <br>
+                                    18 anos <br>
+                                </div>
+                                <div>
+                                    <a href="https://www.instagram.com/_iaae_maaay/" target="_blank"><img
+                                            src="css/img/instagramOFF.png" alt="Instagram"></a>
+                                    <a href="https://www.linkedin.com/in/mayara-santos-9aa550243" target="_blank"><img
+                                            src="css/img/linkedin.png" alt="Linkedin"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="containerEquipe">
+                    <section class="container1">
+                        <div class="container2">
+                            <div class="container-img">
+                                <img src="css/img/Equipe/WhatsApp Image 2022-12-07 at 09.18.02.jpeg" alt="imagem">
+                            </div>
+                            <div class="container-texto">
+                                <div class="info">
+                                    Sabrina Hiagon <br>
+                                    17 anos <br>
+                                </div>
+                                <div>
+                                    <a href="https://www.instagram.com/invites/contact/?i=1m9pj7uyhek0j&utm_content=5jxoumz"
+                                        target="_blank"><img src="css/img/instagramOFF.png" alt="Instagram"></a>
+                                    <a href="www.linkedin.com/in/sabrina-hiagon-1b9554249" target="_blank"><img
+                                            src="css/img/linkedin.png" alt="Linkedin"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="containerEquipe">
+                    <section class="container1">
+                        <div class="container2">
+                            <div class="container-img">
+                                <img src="css/img/Equipe/WhatsApp Image 2022-12-07 at 09.41.36.jpeg" alt="imagem">
+                            </div>
+                            <div class="container-texto">
+                                <div class="info">
+                                    Guilherme França <br>
+                                    22 anos <br>
+                                </div>
+                                <div>
+                                    <a href="https://www.instagram.com/guilherme_f_d/" target="_blank"><img
+                                            src="css/img/instagramOFF.png" alt="Instagram"></a>
+                                    <a href="https://linkedin.com/in/guilherme-frança-da-silva-4756a8155"
+                                        target="_blank"><img src="css/img/linkedin.png" alt="Linkedin"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+        <div class="containerFooter">
+            <div class="social">
+                <div class="logoFooter">
+                    <div class="img-Logo">
+                        <img src="css/img/logo/logo.jpeg" alt="Amarelinha">
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="vr"></div>
+                </div>
+                <div class="frase">
+                    <h4>Toda criança tem o direito de Brincar e ser Criança na forma mais simples de ser...</h4>
+                </div>
+                <div class="socialLinks">
+                    <div class="rede">
+                        <div class="insta-top">
+                            <a href="https://www.instagram.com/amarelinha_ofc1/"><img src="css/img/instagramOFF.png"
+                                    alt="Social" width="30px" height="30px"></a>
+                        </div>
+                        <div class="insta">
+                            <a href="https://www.instagram.com/amarelinha_ofc1/"><img src="css/img/instagramON.png"
+                                    alt="Social" width="30px" height="30px"></a>
+                        </div>
+                        <div class="face-top">
+                            <a href="#"><img src="css/img/facebookOFF.png" alt="Social" width="30px" height="30px"></a>
+                        </div>
+                        <div class="face">
+                            <a href="#"><img src="css/img/facebookON.png" alt="Social" width="30px" height="30px"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <form action="https://api.staticforms.xyz/submit" method="post" class="contatar">
+                            <h5>Fale Conosco</h5>
+                            <input type="text" name="name" placeholder="Nome Completo" required>
+                            <input type="text" name="email" placeholder="E-mail" required>
+                            <textarea name="message" rows="5" cols="40" placeholder="Como podemos Ajudar?"></textarea>
+                            <button type="submit" class="btn btn-contato">Enviar</button>
+                            <input type="hidden" name="accessKey" value="b6c72d84-0318-44ba-a4e0-78d4e60c2ebd">
+                            <input type="hidden" name="redirectTo"
+                                value="http://127.0.0.1:5500/ProjetoBrincar/main/home.html">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer2">
+            <p> Copyright &copy;2022</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

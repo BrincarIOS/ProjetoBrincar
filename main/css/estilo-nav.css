@@ -1,0 +1,138 @@
+#header {
+    z-index: 5;
+    position: fixed !important;
+    width: 100vw;
+    background-color: #ff5;
+    box-shadow: 0 0 10px black;
+}
+
+#botao-nav {
+    padding-right: 20px;
+    background-color: #ff5;
+    border: 2px solid #000;
+    box-shadow: 0 0 3px black;
+}
+
+.logoLinck{
+    font-family: Permanent Marker;
+    font-size: x-large;
+    color: #000 !important;
+}
+
+.link {
+    color: #000;
+    font-weight: bold;
+    transition: all 0.4s ease;
+    border-radius: 3px;
+    margin-right: 3px;
+    border-radius: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.link:focus{
+    color: #ff5 !important;
+    background-color: #000;
+}
+
+.link:hover {
+    color: #ff5 !important;
+    background-color: #000;
+}
+
+.dropMenu{
+    border: none;
+    box-shadow: 0 0 10px black;
+}
+
+.dropItem{
+    color: black;
+    font-weight: bold;
+}
+
+.dropItem:hover{
+    color: #ff5 !important;
+    background-color: #000;
+}
+
+.btn-menu span{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.btn-menu:hover{
+    transition: all 0.4s ease;
+    background-color: #000 !important;
+}
+
+.btn-menu:hover .menu-superior{
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.menu {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+}
+
+.menu-superior {
+    opacity: 1;
+    z-index: 1;
+    position: fixed;
+    background-color: #ff5;
+}
+
+.centro {
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -35px;
+    transition: all .80s ease;
+}
+
+@media only screen and (max-width: 980px) {
+    .centro {
+        top: 15px;
+    }
+}
+
+.home {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.home img{
+    width: 100%;
+    height: 100%;
+}
+
+.home-superior {
+    opacity: 1;
+    z-index: 1;
+    position: fixed;
+    transition: all 0.4s ease;
+    background-color: #ff5;
+    padding: 5px;
+}
+
+.home-superior:hover {
+    opacity: 0;
+}
+
+.cards {
+    padding-top: 76px;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, #ff5, #fff);
+}
+
+.corpo{
+    padding-top: 135px;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, #ff5, #fff);
+}
